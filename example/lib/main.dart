@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pkg/flutter_pkg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,6 +50,10 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const Text(
               'You have pushed the button this many times:',
+            ),
+            YoButton(
+              yoPress: _incrementCounter,
+              yoChildWidget: const Text('yo click'),
             ),
             Text(
               '$_counter',
