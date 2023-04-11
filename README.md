@@ -1,39 +1,24 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# flutter package example
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This is a simple Flutter package that contains a custom button widget. It's intended for learning purposes and testing out the process of creating and publishing a package in Flutter.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add flutter_pkg as a dependency in your pubspec.yaml file.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Import the package into your Dart code, and use the YoButton widget to create a button with custom styling.
 
 ```dart
-const like = 'sample';
+YoButton(
+  yoPress: _incrementCounter,
+  yoChildWidget: const Text('yo click'),
+),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Contributions are welcome! If you have any issues or feature requests, please create an issue on the GitHub repository.
