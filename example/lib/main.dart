@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pkg/flutter_pkg.dart';
+import 'package:yo_button_pkg/yo_button_pkg.dart';
 
 void main() {
   runApp(const MyApp());
