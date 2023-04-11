@@ -23,4 +23,4 @@ N/A
 
 N/A
 
-This version 0.0.1 of "flutter_pkg" includes the initial release of a custom button widget with some basic customization options, along with an example usage of the widget. No changes or fixes were made to this version.
+This version 0.0.1 of "yo_button_pkg" includes the initial release of a custom button widget with some basic customization options, along with an example usage of the widget. No changes or fixes were made to this version.

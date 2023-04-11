@@ -6,7 +6,7 @@ This is a simple Flutter package that contains a custom button widget. It's inte
 
 ## Getting started
 
-To use this package, add flutter_pkg as a dependency in your pubspec.yaml file.
+To use this package, add yo_button_pkg as a dependency in your pubspec.yaml file.
 
 ## Usage
 
